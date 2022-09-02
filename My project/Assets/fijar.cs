@@ -8,7 +8,7 @@ public class fijar : MonoBehaviour
 
     private void Update()
     {
-        float anguloRadianes = Mathf.Atan2(objetivo.position.y - transform.position.y, -transform.position.x - transform.position.x);
+        float anguloRadianes = Mathf.Atan2(objetivo.position.y - transform.position.y, - objetivo.position.x - transform.position.x);
         float anguloGrados = (180 / Mathf.PI) * anguloRadianes - 90;
         transform.rotation = Quaternion.Euler(0, 0, anguloGrados);
     }
