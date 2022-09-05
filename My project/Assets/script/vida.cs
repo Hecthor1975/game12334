@@ -15,4 +15,9 @@ public class vida : MonoBehaviour
             Destroy(gameObject);
         }
     }
+
+    public float GetVida()
+    {
+        return Vida;
+    }
 }
