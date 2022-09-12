@@ -53,3 +53,6 @@ TagManager:
   - name: ENEMY
     uniqueID: 501607239
     locked: 0
+  - name: MURALLA
+    uniqueID: 2740331873
+    locked: 0
