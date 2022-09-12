@@ -20,5 +20,9 @@ public class balaEnemiga : MonoBehaviour
             other.GetComponent<vida>().TomarDaño(daño);
             Destroy(gameObject);
         }
+        else
+        {
+            Destroy(gameObject);
+        }
     }
 }

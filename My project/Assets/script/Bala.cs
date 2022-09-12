@@ -8,6 +8,8 @@ public class Bala : MonoBehaviour
 
     [SerializeField] private float daño;
 
+    public GameObject hitEffet;
+
     private void Update()
     {
         transform.Translate(Time.deltaTime * velocidad * Vector2.up);
@@ -18,7 +20,13 @@ public class Bala : MonoBehaviour
         if (other.CompareTag("Enemigo"))
         {
             other.GetComponent<Enemigo>().TomarDaño(daño);
+
+            Destroy(gameObject);
+        }
+        else
+        {
             Destroy(gameObject);
         }
     }
+
 }
