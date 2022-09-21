@@ -44,9 +44,6 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: PLAYER
-    uniqueID: 2923873003
-    locked: 0
   - name: MUEBLES
     uniqueID: 1232440075
     locked: 0
@@ -55,4 +52,10 @@ TagManager:
     locked: 0
   - name: MURALLA
     uniqueID: 2740331873
+    locked: 0
+  - name: PLAYER
+    uniqueID: 2923873003
+    locked: 0
+  - name: camara
+    uniqueID: 3939967317
     locked: 0
