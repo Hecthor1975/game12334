@@ -14156,7 +14156,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8344cd527ae2a374b9268276bb2005d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  controladorDisparo: {fileID: 1596274290}
+  controladorDisparo:
+  - {fileID: 0}
   bala: {fileID: 7974138433557370652, guid: d706db2bc8d5ce144acc8dcafcda7ba2, type: 3}
 --- !u!70 &1162359036
 CapsuleCollider2D:

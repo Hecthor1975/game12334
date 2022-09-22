@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:My project/Assets/nivel 2/NavMesh-Navmesh.asset.meta
 guid: 30acedc9f1bc7934a83326f050e54ca3
+========
+guid: c539e474ed8aebb4b807b07667450db2
+>>>>>>>> 08969d919e324c040073a0c9ff23f9d4e19ddf6e:My project/Assets/MAPCHE D_/MAPA/NavMesh-Navmesh.asset.meta
 NativeFormatImporter:
   externalObjects: {}
   mainObjectFileID: 23800000
