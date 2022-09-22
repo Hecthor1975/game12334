@@ -9,7 +9,7 @@ public class HealthSystemControl : MonoBehaviour
     public Sprite sprite;
     public Image img;
 
-    public vida hs;
+    public HealthSystemAttribute hs;
     public UnityEvent customActionsZeroHP;
     public float maxHealth;
     bool isNotNull = false;
@@ -30,13 +30,13 @@ public class HealthSystemControl : MonoBehaviour
 
         if(hs != null)
         {
-            UpdateHealth(hs.GetVida()/maxHealth);
+            UpdateHealth(hs.health/maxHealth);
         }
     }
 
     public void CheckHealth()
     {
-        if (hs.GetVida() <= 0)
+        if (hs.health <= 0)
         {
             customActionsZeroHP.Invoke();
             UpdateHealth(0);
