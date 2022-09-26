@@ -12,7 +12,7 @@ public class Movement : MonoBehaviour
     {
         score++;
     }
-    // Update is called once per frame
+   
     void Update()
     {
         float x = Input.GetAxisRaw("Horizontal");

@@ -7,6 +7,7 @@ TagManager:
   - Enemigo
   - Enemy
   - Bullet
+  - vida
   layers:
   - Default
   - TransparentFX
@@ -70,4 +71,7 @@ TagManager:
     locked: 0
   - name: UI
     uniqueID: 2871859327
+    locked: 0
+  - name: techo
+    uniqueID: 3573920531
     locked: 0
