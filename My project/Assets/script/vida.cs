@@ -14,8 +14,13 @@ public class vida : MonoBehaviour
         {
             Destroy(gameObject);
         }
-    }
 
+    }
+    public void cura(float curar)
+    {
+        Vida += curar;
+      
+    }
     public float GetVida()
     {
         return Vida;

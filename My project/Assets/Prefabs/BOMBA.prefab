@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 4153420672291839987}
   - component: {fileID: -2716569505139265612}
   - component: {fileID: 3200462004843615887}
+  - component: {fileID: 8140136540674431468}
   m_Layer: 1
   m_Name: BOMBA
   m_TagString: Untagged
@@ -139,3 +140,16 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.16
+--- !u!114 &8140136540674431468
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7974138433557370652}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8862ea7b10c84421c9485c36f04335a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timeToDestruction: 0.5
