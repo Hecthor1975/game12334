@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5477002320913738934}
   - component: {fileID: 137472593099967790}
-  m_Layer: 3
+  m_Layer: 0
   m_Name: BANG
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -94,9 +94,9 @@ GameObject:
   m_Component:
   - component: {fileID: 2280643048545478220}
   - component: {fileID: 4203225498278030035}
-  m_Layer: 3
+  m_Layer: 0
   m_Name: DETRAS BANG
-  m_TagString: Untagged
+  m_TagString: Bullet
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

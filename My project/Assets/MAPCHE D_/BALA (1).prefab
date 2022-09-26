@@ -126,8 +126,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   velocidad: 30
-  "da\xF1o": 5
-  hitEffet: {fileID: 7991531844894119025, guid: 0ea6afaaa8fd68443b0b70ca433ab398, type: 3}
+  "da\xF1o": 10
+  hitEffect: {fileID: 7991531844894119025, guid: 0ea6afaaa8fd68443b0b70ca433ab398, type: 3}
 --- !u!50 &2037729455650907791
 Rigidbody2D:
   serializedVersion: 4

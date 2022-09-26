@@ -6,12 +6,21 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/NIVELES/HISTORIA.unity
-    guid: a19d4fb8f5929524a965461d776ed485
-  - enabled: 1
     path: Assets/NIVELES/MENU.unity
     guid: 41f94e11b24b98c4da23fac5c3413d44
   - enabled: 1
+    path: Assets/NIVELES/HISTORIA.unity
+    guid: a19d4fb8f5929524a965461d776ed485
+  - enabled: 1
     path: Assets/NIVELES/NIVEL 1.unity
     guid: 5792e00807dab8540a1e632d10e8cfcb
+  - enabled: 1
+    path: Assets/NIVELES/NIVEL 2.unity
+    guid: e19407b59244e5646ba0da9ac4365bf9
+  - enabled: 1
+    path: Assets/NIVELES/NIVEL 3.unity
+    guid: 745c24995622bec47a67ade58c678710
+  - enabled: 1
+    path: Assets/NIVELES/CREDITS.unity
+    guid: 56ba8b5c24ef9f9469b299bf3d1d4910
   m_configObjects: {}
