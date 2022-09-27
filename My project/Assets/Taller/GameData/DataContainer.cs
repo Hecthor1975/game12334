@@ -13,6 +13,7 @@ namespace Arcos.Taller
         public string ID { get { return id; } }
         [SerializeField] private float value;
         [SerializeField] private string id;
+        private bool justLoaded = false;
 
         public DataPrefs() { }
 
@@ -43,6 +44,7 @@ namespace Arcos.Taller
         public float GetInitialValue()
         {
             this.value = PlayerPrefs.GetFloat(id, 0.5f);
+            justLoaded = true;
             return this.value;
         }
 
@@ -59,6 +61,7 @@ namespace Arcos.Taller
         public string ID { get { return id; } }
         [SerializeField] private bool value;
         [SerializeField] private string id;
+        private bool justLoaded = false;
 
         public DataPrefsBool() { }
 
@@ -83,6 +86,7 @@ namespace Arcos.Taller
         public bool GetInitialValue()
         {
             this.value = PlayerPrefs.GetInt(id, 0) == 0? false : true;
+            justLoaded = true;
             return this.value;
         }
 
@@ -99,6 +103,7 @@ namespace Arcos.Taller
         public string ID { get { return id; } }
         [SerializeField] private string value;
         [SerializeField] private string id;
+        private bool justLoaded = false;
 
         public DataPrefsString() { }
 
@@ -123,6 +128,7 @@ namespace Arcos.Taller
         public string GetInitialValue()
         {
             this.value = PlayerPrefs.GetString(id, "");
+            justLoaded = true;
             return this.value;
         }
 

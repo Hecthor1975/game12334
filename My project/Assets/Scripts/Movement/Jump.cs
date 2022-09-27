@@ -47,7 +47,7 @@ public class Jump : Physics2DObject
 			&& collisionData.gameObject.CompareTag(groundTag))
 		{
 			canJump = true;
-			canSecondJump = true;
+			//canSecondJump = true;
 		}
 	}
 }

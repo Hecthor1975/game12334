@@ -8,23 +8,26 @@ public class Bala : MonoBehaviour
 
     [SerializeField] private float daño;
 
-    public GameObject hitEffet;
+    public GameObject hitEffect;
 
     private void Update()
     {
         transform.Translate(Time.deltaTime * velocidad * Vector2.up);
     }
 
-    private void OnTriggerEnter2D(Collider2D other)
+    private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (other.CompareTag("Enemigo"))
+        if (collision.CompareTag("Enemigo"))
         {
-            other.GetComponent<Enemigo>().TomarDaño(daño);
-
+            collision.GetComponent<Enemigo>().TomarDaño(daño);
+            GameObject effect = Instantiate(hitEffect, transform.position, Quaternion.identity);
+            Destroy(effect, 0.8f);
             Destroy(gameObject);
         }
         else
         {
+            GameObject effect = Instantiate(hitEffect, transform.position, Quaternion.identity);
+            Destroy(effect, 0.8f);
             Destroy(gameObject);
         }
     }

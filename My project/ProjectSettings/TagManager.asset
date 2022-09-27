@@ -12,11 +12,11 @@ TagManager:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - CAMARA Y BALA
   - Water
   - UI
-  - NoVisible
-  - 
+  - ENEMY
+  - PLAYER
   - 
   - 
   - 
@@ -42,8 +42,14 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: PISO
+    uniqueID: 3977990469
+    locked: 0
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: PLAYER
+    uniqueID: 2923873003
     locked: 0
   - name: MUEBLES
     uniqueID: 1232440075
@@ -54,11 +60,17 @@ TagManager:
   - name: MURALLA
     uniqueID: 2740331873
     locked: 0
-  - name: PLAYER
-    uniqueID: 2923873003
+  - name: TECHO Y ARBOL
+    uniqueID: 3520362067
     locked: 0
-  - name: camara
-    uniqueID: 3939967317
+  - name: EFECTO BALA
+    uniqueID: 1727093113
+    locked: 0
+  - name: vida
+    uniqueID: 1660255821
+    locked: 0
+  - name: UI
+    uniqueID: 2871859327
     locked: 0
   - name: techo
     uniqueID: 3573920531

@@ -10,11 +10,11 @@ GameObject:
   m_Component:
   - component: {fileID: 170050640138211107}
   - component: {fileID: 6910924225296152289}
-  - component: {fileID: 4153420672291839987}
   - component: {fileID: -2716569505139265612}
   - component: {fileID: 3200462004843615887}
-  - component: {fileID: 8140136540674431468}
-  m_Layer: 1
+  - component: {fileID: 7979204180125017259}
+  - component: {fileID: -546636227579059996}
+  m_Layer: 0
   m_Name: BOMBA
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -74,9 +74,9 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 132
+  m_SortingLayerID: -1554635423
+  m_SortingLayer: 4
+  m_SortingOrder: 1
   m_Sprite: {fileID: 202214277, guid: 6d50db71790009c4d82007c586e3fd48, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -88,21 +88,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &4153420672291839987
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7974138433557370652}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0c31232d82f4bb848b5869197d4a1343, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  velocidad: 5
-  "da\xF1o": 40
-  hitEffet: {fileID: 0}
 --- !u!50 &-2716569505139265612
 Rigidbody2D:
   serializedVersion: 4
@@ -115,14 +100,14 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 1
+  m_Mass: 0.1
   m_LinearDrag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 10
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
   m_Constraints: 0
 --- !u!58 &3200462004843615887
 CircleCollider2D:
@@ -140,7 +125,7 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.16
---- !u!114 &8140136540674431468
+--- !u!114 &7979204180125017259
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -149,7 +134,25 @@ MonoBehaviour:
   m_GameObject: {fileID: 7974138433557370652}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8862ea7b10c84421c9485c36f04335a1, type: 3}
+  m_Script: {fileID: 11500000, guid: 2b3ee6f17f254d649978f91d9dce43fe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timeToDestruction: 0.5
+  velocidad: 2
+  "da\xF1o": 0
+  hitEffect: {fileID: 0}
+--- !u!58 &-546636227579059996
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7974138433557370652}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.15999998
